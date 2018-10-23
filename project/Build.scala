@@ -109,6 +109,7 @@ object SlickBuild extends Build {
     organizationName := "Typesafe",
     organization := "com.typesafe.slick",
     resolvers += Resolver.sonatypeRepo("snapshots"),
+    resolvers += "Typesafe releases" at "http://repo.typesafe.com/typesafe/releases",
     scalacOptions ++= List("-deprecation", "-feature", "-unchecked", "-Xfuture"),
     scalacOptions in (Compile, doc) ++= Seq(
       "-doc-title", name.value,
