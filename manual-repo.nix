@@ -41,5 +41,13 @@
       url = "http://central.maven.org/maven2/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.jar";
       sha256 = "1ypydajcppx3sq66dgx0hh2ax1xs1pvnj2j6by87z6zbnr8rmal0";
     };
+    "nix-public/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom" = {
+      url = "http://central.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.pom";
+      sha256 = "1cd0xaxzyj932rj1c9s56b573lr9j3cg7ipnf0ik6y4pkgq2wmxq";
+    };
+    "nix-public/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar" = {
+      url = "http://central.maven.org/maven2/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar";
+      sha256 = "162ynvda72w8s1fs3b370y3y4jrw00wvlwjv6ciq26yfy12727gq";
+    };
   };
 }
