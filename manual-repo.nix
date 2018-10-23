@@ -29,5 +29,9 @@
       url = "https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.jar";
       sha256 = "183ms545msn02fl0181rwbcifc8qy82rz4l6dglnhv9la8a1bnc2";
     };
+    "nix-typesafe-ivy-releases/org.scala-sbt/compiler-interface/0.13.17/srcs/compiler-interface-sources.jar" = {
+      url = "https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.17/srcs/compiler-interface-sources.jar";
+      sha256 = "0phq8845azkfnf7mzzx9779zrmcxmmdldk7k71v66d5za13mgd38";
+    };
   };
 }
