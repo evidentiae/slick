@@ -33,5 +33,13 @@
       url = "https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.17/srcs/compiler-interface-sources.jar";
       sha256 = "0phq8845azkfnf7mzzx9779zrmcxmmdldk7k71v66d5za13mgd38";
     };
+    "nix-public/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.pom" = {
+      url = "http://central.maven.org/maven2/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.pom";
+      sha256 = "0vk1a52pqk7nfakkm92xdv7aqpy8h30b2xlxxkrvp1vd306b5lva";
+    };
+    "nix-public/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.jar" = {
+      url = "http://central.maven.org/maven2/org/scala-sbt/sbt/1.2.1/sbt-1.2.1.jar";
+      sha256 = "1ypydajcppx3sq66dgx0hh2ax1xs1pvnj2j6by87z6zbnr8rmal0";
+    };
   };
 }
