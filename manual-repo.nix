@@ -13,6 +13,14 @@
       url = "https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.7/jline-2.10.7.jar";
       sha256 = "1cfk6whncx2g87grwdfmz6f76bn807saqik91iwcfv099b1jngw1";
     };
+    "nix-public/org/scala-lang/jline/2.14.3/jline-2.14.3.pom" = {
+      url = "https://repo1.maven.org/maven2/org/scala-lang/jline/2.14.3/jline-2.14.3.pom";
+      sha256 = "1ics4ipmhnz93j0rprydxq306f2zldpywl2xmaqg4mxi38rq1hby";
+    };
+    "nix-public/org/scala-lang/jline/2.14.3/jline-2.14.3.jar" = {
+      url = "http://central.maven.org/maven2/jline/jline/2.14.3/jline-2.14.3.jar";
+      sha256 = "0912i3cn9f357dbk005pv1n0jvyb4s8bz1jspn1jqnvbszzjdp7q";
+    };
     "nix-public/org/fusesource/jansi/jansi/1.4/jansi-1.4.pom" = {
       url = "https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/1.4/jansi-1.4.pom";
       sha256 = "0rgprkbg4ljarf0x79snk2h1b0974glhl2fw1bxkxbw8k3ifda1s";
