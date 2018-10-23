@@ -11,7 +11,7 @@
     };
     "nix-public/org/scala-lang/jline/2.10.7/jline-2.10.7.jar" = {
       url = "https://repo1.maven.org/maven2/org/scala-lang/jline/2.10.7/jline-2.10.7.jar";
-      sha256 = "1cfk6w8ncx2g87grwdfmz6f76bn807saqik91iwcfv099b1jngw1";
+      sha256 = "1cfk6whncx2g87grwdfmz6f76bn807saqik91iwcfv099b1jngw1";
     };
   };
 }
