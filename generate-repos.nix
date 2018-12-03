@@ -14,7 +14,9 @@ let
     sha256 = "0mgafpvmf13d1jckmqs9vi268cmny7z93qhc8ishcwwyqqgr6ds9";
   };
 
-  sbtix-tool = pkgs.callPackage "${sbtixDir}/sbtix-tool.nix" {};
+  sbtix-tool = pkgs.callPackage sbtixDir {
+    inherit pkgs;
+  };
 
 in
 
