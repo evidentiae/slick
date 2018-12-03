@@ -1,17 +1,17 @@
 let
 
   nixpkgs = builtins.fetchTarball {
-    url = https://github.com/NixOS/nixpkgs/archive/b7c795d5887178314a61e582f58c3b4857d9ab6c.tar.gz;
-    sha256 = "1gfnyshgs31kqp7scdyjmczysiip68y9sn072gffhznfpxk2shdy";
+    url = https://github.com/NixOS/nixpkgs/archive/064cda9b1af515efe971fcb19c55dc21a1dd7131.tar.gz;
+    sha256 = "155h4yd6p9azjy6jjyx0zccm253iqxz6si4ys256g6ybqfqqzzra";
   };
 
   pkgs = import nixpkgs {};
 
-  sbtixDir = pkgs.fetchFromGitLab {
+  sbtixDir = pkgs.fetchFromGitHub {
     owner = "teozkr";
     repo = "Sbtix";
-    rev = "4ab0d2d24b27eb4f1a293e4328a0cd1975a483ac";
-    sha256 = "178z2g8ayxv9vrar1vrwcdbxbdqlyjwhakjkfsc5nrk38v7nn9cz";
+    rev = "5277d96745afcc04a0873102f4a5f80cfc68fa23";
+    sha256 = "17h2ijb50q76al72hpggv35bbqiayyzvybmfwyx1cr5xzlpvzcqh";
   };
 
   sbtix-tool = pkgs.callPackage sbtixDir {
