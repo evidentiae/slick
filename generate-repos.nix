@@ -1,6 +1,11 @@
 let
 
-  pkgs = import <nixpkgs> {};
+  nixpkgs = builtins.fetchTarball {
+    url = https://github.com/NixOS/nixpkgs/archive/064cda9b1af515efe971fcb19c55dc21a1dd7131.tar.gz;
+    sha256 = "155h4yd6p9azjy6jjyx0zccm253iqxz6si4ys256g6ybqfqqzzra";
+  };
+
+  pkgs = import nixpkgs {};
 
   sbtixDir = pkgs.fetchFromGitHub {
     owner = "teozkr";
