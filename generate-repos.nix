@@ -10,8 +10,8 @@ let
   sbtixDir = pkgs.fetchFromGitLab {
     owner = "teozkr";
     repo = "Sbtix";
-    rev = "e160e92d8e2bf0ac36730913527a1b4a6353a7c0";
-    sha256 = "0mgafpvmf13d1jckmqs9vi268cmny7z93qhc8ishcwwyqqgr6ds9";
+    rev = "4ab0d2d24b27eb4f1a293e4328a0cd1975a483ac";
+    sha256 = "178z2g8ayxv9vrar1vrwcdbxbdqlyjwhakjkfsc5nrk38v7nn9cz";
   };
 
   sbtix-tool = pkgs.callPackage sbtixDir {
