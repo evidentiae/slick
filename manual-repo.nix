@@ -117,6 +117,10 @@
       url = "http://central.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar";
       sha256 = "02i3ncy011czl3pxgvwmhzvn5q72pzs47q78fywrr1vfnp7bdhvw";
     };
+    "nix-public/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6.jar" = {
+      url = "http://central.maven.org/maven2/org/scala-lang/scala-compiler/2.12.6/scala-compiler-2.12.6.jar";
+      sha256 = "0qx8awz9r8cqskx8sjjlm2rk0q9rddiqwky0n8bh4argq1yb08rh";
+    };
     "nix-public/org/scala-sbt/main_2.12/1.2.3/main_2.12-1.2.3.pom" = {
       url = "http://central.maven.org/maven2/org/scala-sbt/main_2.12/1.2.3/main_2.12-1.2.3.pom";
       sha256 = "14xbb91bj196lnjar4srwmxadhr1q44qqy5pyvv0ysbydl27mb5i";
