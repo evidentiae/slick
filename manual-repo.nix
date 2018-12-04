@@ -77,6 +77,30 @@
       url = "http://central.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.4/launcher-interface-1.0.4.jar";
       sha256 = "025vqhq9vipnz0qwx6nbrfmm79vqfjmag0j9imnbrgcyqyp3daca";
     };
+    "nix-public/org/scala-sbt/logic_2.12/1.2.3/logic_2.12-1.2.3.jar" = {
+      url = "http://central.maven.org/maven2/org/scala-sbt/logic_2.12/1.2.3/logic_2.12-1.2.3.jar";
+      sha256 = "01jf7bfp9phshni0vg9d34wslgnv9wwbqqqsiyppmsj7bpc7y02r";
+    };
+    "nix-public/org/scala-sbt/actions_2.12/1.2.3/actions_2.12-1.2.3.jar" = {
+      url = "http://central.maven.org/maven2/org/scala-sbt/actions_2.12/1.2.3/actions_2.12-1.2.3.jar";
+      sha256 = "1fgkbf8mk9v4dq5j30kg79in60p884916jm3gj05ms66zpcni3yd";
+    };
+    "nix-public/org/scala-sbt/main-settings_2.12/1.2.3/main-settings_2.12-1.2.3.jar" = {
+      url = "http://central.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.2.3/main-settings_2.12-1.2.3.jar";
+      sha256 = "1d7dfbzjhf19arkczy6f2k60bmdf60kh9v7ikf3gi22hz4j2zy32";
+    };
+    "nix-public/org/scala-sbt/run_2.12/1.2.3/run_2.12-1.2.3.jar" = {
+      url = "http://central.maven.org/maven2/org/scala-sbt/run_2.12/1.2.3/run_2.12-1.2.3.jar";
+      sha256 = "13bdg4var8ylg8lgpishlb605kibmf85a0x48rf20pbxlg08kz31";
+    };
+    "nix-public/org/scala-sbt/command_2.12/1.2.3/command_2.12-1.2.3.jar" = {
+      url = "http://central.maven.org/maven2/org/scala-sbt/command_2.12/1.2.3/command_2.12-1.2.3.jar";
+      sha256 = "08sbiyac9g1kfjjy0naih2snkb0z2lp1i0cpylbjvsw7wdgn9qyd";
+    };
+    "nix-public/org/scala-sbt/collections_2.12/1.2.3/collections_2.12-1.2.3.jar" = {
+      url = "http://central.maven.org/maven2/org/scala-sbt/collections_2.12/1.2.3/collections_2.12-1.2.3.jar";
+      sha256 = "1432hrnzaz8pdlmasx6rp9bp2xrnihxppnj76xwqz9xdc7jq3j52";
+    };
     "nix-public/com/github/cb372/scalacache-caffeine_2.12/0.20.0/scalacache-caffeine_2.12-0.20.0.jar" = {
       url = "http://central.maven.org/maven2/com/github/cb372/scalacache-caffeine_2.12/0.20.0/scalacache-caffeine_2.12-0.20.0.jar";
       sha256 = "15bzss3fbjfp2x7fqmwnby2d6agpsg19kf0n7ybpgav1s59sgp21";
