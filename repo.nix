@@ -2,7 +2,7 @@
 {
   "versioning" = [{
       "scalaVersion" = "2.11.12";
-      "sbtVersion" = "0.13.17";
+      "sbtVersion" = "0.13.15";
     }];
   "repos" = {
     "nix-public" = "";
@@ -1627,7 +1627,7 @@
     };
     "nix-public/org/webjars/npm/source-map/maven-metadata.xml" = {
       url = "https://repo1.maven.org/maven2/org/webjars/npm/source-map/maven-metadata.xml";
-      sha256 = "17wvnan1rjll5q4xvza5l7llrkl9v08cdpz9vn6xi4hjzkq5i8rr";
+      sha256 = "09bndf265qp4kd4jblc0ny33bn7qrq8vv6pdpwplhkqrlmx0gmad";
     };
     "nix-public/org/webjars/npm/strip-ansi/3.0.1/strip-ansi-3.0.1.jar" = {
       url = "https://repo1.maven.org/maven2/org/webjars/npm/strip-ansi/3.0.1/strip-ansi-3.0.1.jar";
