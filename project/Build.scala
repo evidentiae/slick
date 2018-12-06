@@ -35,7 +35,7 @@ object SlickBuild extends Build {
     val reactiveStreamsVersion = "1.0.2"
     val reactiveStreams = "org.reactivestreams" % "reactive-streams" % reactiveStreamsVersion
     val reactiveStreamsTCK = "org.reactivestreams" % "reactive-streams-tck" % reactiveStreamsVersion
-    val hikariCP = "com.zaxxer" % "HikariCP" % "2.7.4"
+    val hikariCP = "com.zaxxer" % "HikariCP" % "3.1.0"
     val mainDependencies = Seq(slf4j, typesafeConfig, reactiveStreams)
     val h2 = "com.h2database" % "h2" % "1.4.197"
     val testDBs = Seq(
@@ -110,7 +110,7 @@ object SlickBuild extends Build {
     organization := "com.typesafe.slick",
     resolvers += Resolver.sonatypeRepo("snapshots"),
     resolvers += "Typesafe releases" at "http://repo.typesafe.com/typesafe/releases",
-    scalacOptions ++= List("-deprecation", "-feature", "-unchecked", "-Xfuture"),
+    scalacOptions ++= List("-feature", "-unchecked", "-Xfuture"),
     scalacOptions in (Compile, doc) ++= Seq(
       "-doc-title", name.value,
       "-doc-version", version.value,

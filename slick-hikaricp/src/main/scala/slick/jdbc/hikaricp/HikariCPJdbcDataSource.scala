@@ -62,7 +62,7 @@ object HikariCPJdbcDataSource extends JdbcDataSourceFactory {
     // `initializationFailTimeout`. See HikariCP docs for more information:
     // https://github.com/brettwooldridge/HikariCP#infrequently-used
     // But we still respect the value if it configured.
-    c.getBooleanOpt("initializationFailFast").foreach(hconf.setInitializationFailFast)
+    //c.getBooleanOpt("initializationFailFast").foreach(hconf.setInitializationFailFast)
 
     // The default value for `initializationFailFast` was false, which means the pool
     // will not fail to start if there is a problem when connecting to the database.

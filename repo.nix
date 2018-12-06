@@ -377,13 +377,13 @@
       url = "https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.11/1.1.1/twirl-api_2.11-1.1.1.pom";
       sha256 = "167gw9v0lq62q4abggw0pzsms5gks11s5cdhzb7p99k31gi7dn31";
     };
-    "nix-public/com/zaxxer/HikariCP/2.7.4/HikariCP-2.7.4.jar" = {
-      url = "https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.7.4/HikariCP-2.7.4.jar";
-      sha256 = "0gh1zig4y0p1qfd4w1ih3f89v2pspj7cyxamm912fvv6ypml9lnb";
+    "nix-public/com/zaxxer/HikariCP/3.1.0/HikariCP-3.1.0.jar" = {
+      url = "https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.1.0/HikariCP-3.1.0.jar";
+      sha256 = "0k2i2hzv1wyhqm2jzyviwh0iq9wn1r62jn3mhwr4kn8nabr3j6jc";
     };
-    "nix-public/com/zaxxer/HikariCP/2.7.4/HikariCP-2.7.4.pom" = {
-      url = "https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.7.4/HikariCP-2.7.4.pom";
-      sha256 = "1p7jqm3xs0pkxyag27jkbhbsi1dnxbwig1x81avqdd0dwagi579n";
+    "nix-public/com/zaxxer/HikariCP/3.1.0/HikariCP-3.1.0.pom" = {
+      url = "https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.1.0/HikariCP-3.1.0.pom";
+      sha256 = "1n1q7i6bps4i7fb2nm3sfklmi4w0kywndwg49mibbj8ivj0bvf4s";
     };
     "nix-public/commons-codec/commons-codec/1.2/commons-codec-1.2.jar" = {
       url = "https://repo1.maven.org/maven2/commons-codec/commons-codec/1.2/commons-codec-1.2.jar";
