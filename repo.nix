@@ -377,13 +377,13 @@
       url = "https://repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.11/1.1.1/twirl-api_2.11-1.1.1.pom";
       sha256 = "167gw9v0lq62q4abggw0pzsms5gks11s5cdhzb7p99k31gi7dn31";
     };
-    "nix-public/com/zaxxer/HikariCP/3.1.0/HikariCP-3.1.0.jar" = {
-      url = "https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.1.0/HikariCP-3.1.0.jar";
-      sha256 = "0k2i2hzv1wyhqm2jzyviwh0iq9wn1r62jn3mhwr4kn8nabr3j6jc";
+    "nix-public/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.jar" = {
+      url = "https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.jar";
+      sha256 = "1cjjqr8w0pikxawrbza1li9irbmkcg7g13ld7rhpfjs1b19brxrw";
     };
-    "nix-public/com/zaxxer/HikariCP/3.1.0/HikariCP-3.1.0.pom" = {
-      url = "https://repo1.maven.org/maven2/com/zaxxer/HikariCP/3.1.0/HikariCP-3.1.0.pom";
-      sha256 = "1n1q7i6bps4i7fb2nm3sfklmi4w0kywndwg49mibbj8ivj0bvf4s";
+    "nix-public/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.pom" = {
+      url = "https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.5.1/HikariCP-2.5.1.pom";
+      sha256 = "19s4dl5hnppv82a0nwx5dk6kf7iy19mx5f21kqzfkqa1ql3y29a1";
     };
     "nix-public/commons-codec/commons-codec/1.2/commons-codec-1.2.jar" = {
       url = "https://repo1.maven.org/maven2/commons-codec/commons-codec/1.2/commons-codec-1.2.jar";
@@ -1317,6 +1317,14 @@
       url = "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.18/slf4j-api-1.7.18.pom";
       sha256 = "17vabcclkm3knsx1bl6i8mnybhy8x2nyf5nj0wyww4zg5bva505c";
     };
+    "nix-public/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar" = {
+      url = "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar";
+      sha256 = "1pz7yf553zp7v1l1w3zaj6knhr2zq10yksk928axs3wbv5mynnhx";
+    };
+    "nix-public/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom" = {
+      url = "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom";
+      sha256 = "1p2gspyh1mhwkf79jzwzbqx70v1aacw89py9y95finm2zwkdyasz";
+    };
     "nix-public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar" = {
       url = "https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar";
       sha256 = "0yavwayiv5pkbzvlvmqaaqpxsa9xn9xpcbjr2ywac7awbl4s1i0q";
@@ -1344,6 +1352,10 @@
     "nix-public/org/slf4j/slf4j-parent/1.7.18/slf4j-parent-1.7.18.pom" = {
       url = "https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.18/slf4j-parent-1.7.18.pom";
       sha256 = "0g2sxkb6hsc4yr7h8fr1pc6jz4ph87aax2smzzf70x55rx3jjiam";
+    };
+    "nix-public/org/slf4j/slf4j-parent/1.7.21/slf4j-parent-1.7.21.pom" = {
+      url = "https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.21/slf4j-parent-1.7.21.pom";
+      sha256 = "1bivs54pz8dvb1prwqgzlkjhxmcy2gnw31kmq29nqlgdbmzjbaks";
     };
     "nix-public/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom" = {
       url = "https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom";

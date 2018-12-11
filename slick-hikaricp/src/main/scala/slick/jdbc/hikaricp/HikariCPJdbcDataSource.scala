@@ -68,7 +68,7 @@ object HikariCPJdbcDataSource extends JdbcDataSourceFactory {
     // will not fail to start if there is a problem when connecting to the database.
     // To keep this behavior, we need to set `initializationFailTimeout` to -1 as
     // documented by HikariCP.
-    hconf.setInitializationFailTimeout(c.getMillisecondsOr("initializationFailTimeout", -1))
+    //hconf.setInitializationFailTimeout(c.getMillisecondsOr("initializationFailTimeout", -1))
 
     c.getBooleanOpt("isolateInternalQueries").foreach(hconf.setIsolateInternalQueries)
     c.getBooleanOpt("allowPoolSuspension").foreach(hconf.setAllowPoolSuspension)
@@ -84,7 +84,7 @@ object HikariCPJdbcDataSource extends JdbcDataSourceFactory {
     hconf.setValidationTimeout(c.getMillisecondsOr("validationTimeout", 1000))
     hconf.setLeakDetectionThreshold(c.getMillisecondsOr("leakDetectionThreshold", 0))
 
-    c.getStringOpt("schema").foreach(hconf.setSchema)
+    //c.getStringOpt("schema").foreach(hconf.setSchema)
 
     val ds = new HikariDataSource(hconf)
     new HikariCPJdbcDataSource(ds, hconf)
